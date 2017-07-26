@@ -8,7 +8,7 @@ public class PassByReference4 {
 
 	public static void main(String[] args) {
 		StringBuilder nameOriginal = new StringBuilder("senthamil");
-		//String nameOriginal = "senthamil";
+		// String nameOriginal = "senthamil";
 		m1(nameOriginal);
 		System.out.println("original name" + nameOriginal);
 	}

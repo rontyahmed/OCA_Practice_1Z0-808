@@ -9,7 +9,7 @@ public class PassByReference {
 
 	public static void main(String[] args) {
 		String nameOriginal = new String("senthamil");
-		//String nameOriginal = "senthamil";
+		// String nameOriginal = "senthamil";
 		m1(nameOriginal);
 		System.out.println("original name" + nameOriginal);
 	}
